@@ -5,7 +5,7 @@ April 28, 2020
 Project Title: Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Inspec US Bikeshare data 
 
 ### Files used
 Include the files used
