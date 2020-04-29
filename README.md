@@ -2,14 +2,14 @@
 April 28, 2020
 
 ### Project Title
-Replace the Project Title
+Project Title: Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Inspec US Bikeshare data 
 
 ### Files used
-Include the files used
+Only the bikeshare.py file
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://github.com/udacity/pdsnd_github
 
