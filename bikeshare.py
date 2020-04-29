@@ -232,10 +232,28 @@ def user_stats(df, city):
     print('-'*40)
 
 
+def display_data(df):
+    """Displays 5 lines of raw data."""
+
+    see_raw = input('Do you want to see raw data? (y/n): ').lower()
+    if see_raw == 'y':
+        i = 0
+        while (True):
+
+            print(df.iloc[[i, i+1, i+2, i+3, i+4]])
+            i += 5
+
+            see_raw = input('Do you want to see more 5 lines of raw data? (y/n): ').lower()
+            if see_raw != 'y':
+                break
+
+
 def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
+
+        display_data(df)
 
         time_stats(df)
         station_stats(df)
